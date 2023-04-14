@@ -1,8 +1,9 @@
 ---
 layout: default
+title: Indie Testing Community
 ---
 
-# Welcome to the Indie Testing Community
+## Welcome to the Indie Testing Community
 
 The Indie Testing Community’s purpose is to create a safe environment for anyone who wants to come together to learn and share knowledge. Our goal is to support each other while connecting. Our community is a safe space for people who work in software testing or related software quality fields, to chat, support each other, and to learn.
 
