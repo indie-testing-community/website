@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Indie Testing Community
 ---
 
 # Welcome to the Indie Testing Community
