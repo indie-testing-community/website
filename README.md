@@ -1,5 +1,5 @@
 # Indie Testing Community GH Pages Repository
-This is the [GitHub Pages](https://pages.github.com/) repository for [Indie Testing Community](https://www.indie-testing.community/) website, powered by [Jekyll](https://jekyllrb.com/) and the [Cayman](https://github.com/pages-themes/cayman GitHub Pages theme.
+This is the [GitHub Pages](https://pages.github.com/) repository for the [Indie Testing Community](https://www.indie-testing.community/) website, powered by [Jekyll](https://jekyllrb.com/) and the [Cayman](https://github.com/pages-themes/cayman) GitHub Pages theme.
 
 ## Adding new pages
 
