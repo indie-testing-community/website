@@ -1,0 +1,5 @@
+title: Indie Testing Community
+description: A friendly Slack Community for testers to come together, learn and share knowledge in a safe environment. All welcome!
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
