@@ -3,7 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
-  {% seo %}
+  <title>
+    {% if page.title == site.title %}
+      {{ page.title }}
+    {% else %}
+      {{ page.title }} | {{ site.title }}
+    {% endif %}
+  </title>
+  {% seo title=false %}
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style"
     type="text/css" crossorigin>
