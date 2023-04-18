@@ -28,7 +28,7 @@ $hr-border-color: #7A444A;
     color: #FFF;
     border-color: $border-color;
 
-    &:hover {
+    &:hover, &:focus-visible {
     color: $section-headings-color;
     text-decoration: none;
     background-color: #FFF;
