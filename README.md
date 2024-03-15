@@ -21,9 +21,11 @@ brew install rbenv
 
 rbenv init # follow the instructions to add rbenv to your shell
 
-rbenv global 3.1.4  # set the default Ruby version for this machine
+rbenv install 3.3.0 # install the correct Ruby version for this repo on your machine
+
+rbenv global 3.3.0  # set the default Ruby version for this machine
 # or:
-rbenv local 3.1.4   # after navigating to this repository, run this command to set the Ruby version for just this project
+rbenv local 3.3.0   # after navigating to this repository, run this command to set the Ruby version for just this project
 ```
 
 If any of these commands don't work as they should, you may need to quit and re-open your terminal app/tab before trying again.
