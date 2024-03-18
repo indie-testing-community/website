@@ -13,11 +13,11 @@ See the [Cayman theme documentation](https://github.com/pages-themes/cayman#cust
 
 ## Building locally
 
-First, ensure that you have a recent version of Ruby installed locally. 
+First, ensure that you have a recent version of Ruby installed locally.
 
 On a Mac, you can install [rbenv](https://github.com/rbenv/rbenv) using [Homebrew](https://brew.sh/) and install a sensible version of Ruby globally or within this directory:
 ```
-brew install rbenv 
+brew install rbenv
 
 rbenv init # follow the instructions to add rbenv to your shell
 
