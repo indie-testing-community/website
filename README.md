@@ -42,5 +42,3 @@ bundle exec jekyll serve
 ```
 
 As you edit files and save them, the static site will automatically rebuild.
-
-When committing changes, it's probably not necessary to include the generated `Gemfile.lock`, but we can do so in future if needed.
