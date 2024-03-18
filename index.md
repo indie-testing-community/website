@@ -19,7 +19,7 @@ Unacceptable behaviour will not be tolerated in this community, at any time, for
 
 Members asked to stop any harassing behaviour are expected to comply immediately. If a member engages in harassing behaviour, the administrators may take any action they deem appropriate, up to and including expulsion from Indie Testing Community.
 
-For full details, take a look at our [Code of Conduct](https://github.com/indie-testing-community/documents/blob/main/code-of-conduct.md) (work in progress). By joining this Slack, you agree to abide by the CoC and to follow the directions of the moderation team.
+For full details, take a look at our [Code of Conduct](https://github.com/indie-testing-community/documents/blob/main/code-of-conduct.md) and [Community Principles](https://github.com/indie-testing-community/documents/blob/main/community-principles.md). By joining this Slack, you agree to abide by the CoC and to follow the directions of the moderation team.
 
 ## Getting to know the community
 
@@ -30,4 +30,4 @@ For full details, take a look at our [Code of Conduct](https://github.com/indie-
 ## Suggestions or feedback
 This is a new endeavour for a lot of us, and starting a whole new Slack community means that a bunch of the setup and functions that we benefitted from in the MoT Slack might not be implemented here. Please reach out in the **#admin** channel if you have any suggestions or ideas about things we can implement.
 
-<a href="https://join.slack.com/t/indietestingcommunity/shared_invite/zt-263z3g39u-MCXVYyYJoKgsZx9THYT4zQ" class="btn">Join the Slack</a>
+<a href="{{ site.slack_invite_url }}" class="btn">Join the Slack</a>

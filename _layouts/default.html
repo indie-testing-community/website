@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <title>
     {% if page.title == site.title %}
-      {{ page.title }}
+    {{ page.title }}
     {% else %}
-      {{ page.title }} | {{ site.title }}
+    {{ page.title }} | {{ site.title }}
     {% endif %}
   </title>
   {% seo title=false %}
@@ -30,8 +30,22 @@
       alt="The words Indie Testing Community arranged around a dark green circle. Inside the circle there is a forest of pine trees in front of two snow-capped mountains, with two log cabins in the foreground." />
     <h2 class="project-tagline">
       {{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-    <a href="https://join.slack.com/t/indietestingcommunity/shared_invite/zt-263z3g39u-MCXVYyYJoKgsZx9THYT4zQ"
-      class="btn">Join the Slack</a>
+    <nav>
+      <a href="{{ site.slack_invite_url }}"
+        class="btn">
+        Join the Slack
+      </a>
+      <a href="https://github.com/indie-testing-community/documents/blob/main/code-of-conduct.md" class="btn">
+        Code of Conduct
+      </a>
+      <a href="https://github.com/indie-testing-community/documents/blob/main/community-principles.md" class="btn">
+        Community Principles
+      </a>
+      <a href="https://github.com/indie-testing-community/" class="btn">
+        GitHub Org
+      </a>
+    </nav>
+
   </header>
 
   <main id="content" class="main-content" role="main">

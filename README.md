@@ -13,17 +13,19 @@ See the [Cayman theme documentation](https://github.com/pages-themes/cayman#cust
 
 ## Building locally
 
-First, ensure that you have a recent version of Ruby installed locally. 
+First, ensure that you have a recent version of Ruby installed locally.
 
 On a Mac, you can install [rbenv](https://github.com/rbenv/rbenv) using [Homebrew](https://brew.sh/) and install a sensible version of Ruby globally or within this directory:
 ```
-brew install rbenv 
+brew install rbenv
 
 rbenv init # follow the instructions to add rbenv to your shell
 
-rbenv global 3.1.4  # set the default Ruby version for this machine
+rbenv install 3.3.0 # install the correct Ruby version for this repo on your machine
+
+rbenv global 3.3.0  # set the default Ruby version for this machine
 # or:
-rbenv local 3.1.4   # after navigating to this repository, run this command to set the Ruby version for just this project
+rbenv local 3.3.0   # after navigating to this repository, run this command to set the Ruby version for just this project
 ```
 
 If any of these commands don't work as they should, you may need to quit and re-open your terminal app/tab before trying again.
@@ -40,5 +42,3 @@ bundle exec jekyll serve
 ```
 
 As you edit files and save them, the static site will automatically rebuild.
-
-When committing changes, it's probably not necessary to include the generated `Gemfile.lock`, but we can do so in future if needed.
